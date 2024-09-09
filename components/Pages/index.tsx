@@ -14,7 +14,7 @@ const Page: PageEl = (props, state, refresh, getProps) => {
 
 
   return (
-    <div style={{ direction: "rtl", minHeight: "11vh", }}>
+    <div style={{ direction: "rtl", minHeight: "11vh", borderRadius : 0 }}>
       <br-x />
       <br-xx/>
       <br-xx/>
@@ -22,7 +22,7 @@ const Page: PageEl = (props, state, refresh, getProps) => {
       <Window title={"قیمت لحظه ای تتر:"} style={{ minHeight: 200, margin: 10, width: "calc(100% - 10px)" }}>
       <br-xx/>
 
-       <div style={{width:"100%" , height:50 , backgroundColor:"#4A504A" , borderRadius:5 , 
+       <div style={{width:"100%" , height:50 , backgroundColor:"#5871FF" , borderRadius:0 , 
         textAlign:"center"
        }}>
         <br-x/>
@@ -34,8 +34,9 @@ const Page: PageEl = (props, state, refresh, getProps) => {
 
        <br-xx/>
        
+       
 
-       <div style={{width:"100%" , height:50 , backgroundColor:"#4A504A" , borderRadius:5 , 
+       <div style={{width:"100%" , height:50 , backgroundColor:"#5871FF" , borderRadius:0 , 
         textAlign:"center"
        }}>
         <br-x/>
@@ -46,7 +47,7 @@ const Page: PageEl = (props, state, refresh, getProps) => {
               <br-xx/>
        
 
-       <div style={{width:"100%" , height:50 , backgroundColor:"#4A504A" , borderRadius:5 , 
+       <div style={{width:"100%" , height:50 , backgroundColor:"#5871FF" , borderRadius:0 , 
         textAlign:"center"
        }}>
         <br-x/>
@@ -58,7 +59,7 @@ const Page: PageEl = (props, state, refresh, getProps) => {
        <br-xx/>
        
 
-       <div style={{width:"100%" , height:50 , backgroundColor:"#4A504A" , borderRadius:5 , 
+       <div style={{width:"100%" , height:50 , backgroundColor:"#5871FF" , borderRadius:0 , 
         textAlign:"center"
        }}>
         <br-x/>
